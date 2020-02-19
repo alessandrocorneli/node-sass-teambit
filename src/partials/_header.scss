@@ -1,0 +1,58 @@
+ .header{
+   display: flex;
+   justify-content: flex-start;
+   flex-direction: row;
+   height: $headerHeight;
+   width: $mainWidth;
+   border-bottom: 1px solid #845c3b;
+   &-L {
+     height: $headerHeight;
+     width: 30%;
+   }
+   &-R {
+     height: $headerHeight;
+     width: 70%;
+    .Right-nav{
+      height: 100%;
+      display: flex;
+      flex-flow: row-reverse;
+      .toolList{
+        height: $headerHeight;
+        margin: 0;
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        list-style: none;
+        #dropdownTrigger{
+          position: relative;
+        }
+        #dropdownArrow{
+          color: $colorMainText;
+          font-size: 15px;
+          padding-left: 2px;
+        }
+        .dropdown{
+          position: absolute;
+          top: 30px;
+          opacity: 0%;
+          list-style: none;
+          padding: 10px;
+          background-color: #fff;
+          border-radius: 10px;
+          -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 6px 0px rgba(0,0,0,0.1);
+          @include dropdownMenu;
+          .dropdownElement{
+          }
+        }
+      }
+    }
+   }
+ }
+ #navButton{
+   @include button;
+   display: flex;
+   align-items: center;
+   padding: 0px 10px 0px 10px;
+   color: $colorLink-Btn;
+   background-color: #FFF;
+ }

@@ -1,0 +1,41 @@
+#jumboSection{
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  .jumboContainer{
+    width: 50%;
+    h1{
+      font-size: 50px;
+      color: $colorMainText;
+      margin-bottom: 30px;
+    }
+    h2{
+      font-size: 28px;
+      font-weight: 300;
+      color: $colorMainText;
+      margin-bottom: 40px;
+    }
+    .button{
+      @include button;
+      padding: 0px 10px 0px 10px;
+      p{
+        display: inline;
+      }
+    }
+    .jumboLabel{
+      color: #bdb5af;
+      margin: 10px;
+    }
+    .SignGoogleSlack{
+      display: flex;
+      justify-content: space-between;
+      align-content: center;
+      margin-bottom: 20px;
+    }
+    a{
+      color: $colorMainText;
+      text-decoration: none;
+    }
+  }
+
+}

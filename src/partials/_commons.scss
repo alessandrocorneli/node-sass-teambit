@@ -1,0 +1,22 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: $generalFont;
+  height: 100vh;
+  width: 100%;
+  font-size: 17px;
+}
+li{
+  padding-right: 30px;
+  a{
+    text-decoration: none;
+    color: $colorMainText;
+    font-weight: bold;
+  }
+}
+.section{
+  width: $mainWidth;
+}

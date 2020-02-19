@@ -1,0 +1,23 @@
+#dropdownTrigger:hover{
+  .dropdown{
+    opacity: 100%;
+    .dropdownElement:hover{
+      color: $colorLink-Btn;
+      transition: 0.3s;
+    }
+  }
+}
+
+.toolList {
+  li {
+    a:hover {
+      color: $colorLink-Btn;
+    }
+  }
+}
+
+#navButton:hover{
+  color: white;
+  background-color: $colorLink-Btn;
+  cursor: pointer;
+}

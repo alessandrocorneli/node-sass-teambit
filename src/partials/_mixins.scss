@@ -1,0 +1,21 @@
+@mixin button {
+  display: inline-block;
+  height: 30px;
+  padding: 10px;
+  border: 1px solid $colorLink-Btn;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: $generalFont;
+  line-height: 10px;
+  color: #FFF;
+  background-color: $colorLink-Btn;
+  transition: 0.3s;
+  img{
+    margin-right: 5px;
+    height: 20px;
+  }
+}
+@mixin dropdownMenu {
+  transition: 0.2s;
+}

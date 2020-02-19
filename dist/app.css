@@ -1,0 +1,192 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  height: 100vh;
+  width: 100%;
+  font-size: 17px;
+}
+
+li {
+  padding-right: 30px;
+}
+
+li a {
+  text-decoration: none;
+  color: #58402C;
+  font-weight: bold;
+}
+
+.section {
+  width: 80%;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  height: 90px;
+  width: 80%;
+  border-bottom: 1px solid #845c3b;
+}
+
+.header-L {
+  height: 90px;
+  width: 30%;
+}
+
+.header-R {
+  height: 90px;
+  width: 70%;
+}
+
+.header-R .Right-nav {
+  height: 100%;
+  display: flex;
+  flex-flow: row-reverse;
+}
+
+.header-R .Right-nav .toolList {
+  height: 90px;
+  margin: 0;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  list-style: none;
+}
+
+.header-R .Right-nav .toolList #dropdownTrigger {
+  position: relative;
+}
+
+.header-R .Right-nav .toolList #dropdownArrow {
+  color: #58402C;
+  font-size: 15px;
+  padding-left: 2px;
+}
+
+.header-R .Right-nav .toolList .dropdown {
+  position: absolute;
+  top: 30px;
+  opacity: 0%;
+  list-style: none;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 6px 0px rgba(0, 0, 0, 0.1);
+  transition: 0.2s;
+}
+
+#navButton {
+  display: inline-block;
+  height: 30px;
+  padding: 10px;
+  border: 1px solid #30488F;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: "Nunito Sans", sans-serif;
+  line-height: 10px;
+  color: #FFF;
+  background-color: #30488F;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  padding: 0px 10px 0px 10px;
+  color: #30488F;
+  background-color: #FFF;
+}
+
+#navButton img {
+  margin-right: 5px;
+  height: 20px;
+}
+
+#jumboSection {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+}
+
+#jumboSection .jumboContainer {
+  width: 50%;
+}
+
+#jumboSection .jumboContainer h1 {
+  font-size: 50px;
+  color: #58402C;
+  margin-bottom: 30px;
+}
+
+#jumboSection .jumboContainer h2 {
+  font-size: 28px;
+  font-weight: 300;
+  color: #58402C;
+  margin-bottom: 40px;
+}
+
+#jumboSection .jumboContainer .button {
+  display: inline-block;
+  height: 30px;
+  padding: 10px;
+  border: 1px solid #30488F;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: "Nunito Sans", sans-serif;
+  line-height: 10px;
+  color: #FFF;
+  background-color: #30488F;
+  transition: 0.3s;
+  padding: 0px 10px 0px 10px;
+}
+
+#jumboSection .jumboContainer .button img {
+  margin-right: 5px;
+  height: 20px;
+}
+
+#jumboSection .jumboContainer .button p {
+  display: inline;
+}
+
+#jumboSection .jumboContainer .jumboLabel {
+  color: #bdb5af;
+  margin: 10px;
+}
+
+#jumboSection .jumboContainer .SignGoogleSlack {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-bottom: 20px;
+}
+
+#jumboSection .jumboContainer a {
+  color: #58402C;
+  text-decoration: none;
+}
+
+#dropdownTrigger:hover .dropdown {
+  opacity: 100%;
+}
+
+#dropdownTrigger:hover .dropdown .dropdownElement:hover {
+  color: #30488F;
+  transition: 0.3s;
+}
+
+.toolList li a:hover {
+  color: #30488F;
+}
+
+#navButton:hover {
+  color: white;
+  background-color: #30488F;
+  cursor: pointer;
+}
+
